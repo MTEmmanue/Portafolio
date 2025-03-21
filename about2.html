@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rectángulos con texto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0d0d2b;
+            color: white;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .box {
+            border: 2px solid #00ffff;
+            border-radius: 10px;
+            padding: 20px;
+            width: 45%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .box h2 {
+            color: #00ffff;
+            margin-top: 0;
+        }
+
+        .box ul {
+            list-style: disc; /* Cambiado a puntos */
+            padding-left: 20px; /* Espaciado a la izquierda */
+        }
+
+        .box ul li {
+            margin: 5px 0;
+        }
+
+        .box a {
+            color: #00ffff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>Información Personal</h2>
+            <p>Nombre: Nicolás Ariel Sena</p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/nicosena10">linkedin.com/in/nicosena10</a></p>
+            <p>GitHub: <a href="https://github.com/niico0">github.com/niico0</a></p>
+            <p>Localidad: Ciudad de Corrientes, Argentina</p>
+        </div>
+        <div class="box">
+            <h2>Habilidades Blandas</h2>
+            <ul>
+                <li>Trabajo en equipo</li>
+                <li>Comunicación efectiva</li>
+                <li>Resolución de problemas</li>
+                <li>Adaptabilidad</li>
+                <li>Pensamiento crítico</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
